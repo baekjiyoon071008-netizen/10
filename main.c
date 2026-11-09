@@ -3,12 +3,9 @@
 
 int main(void) 
 {
-   char str[] = "the worst thing to eat befeore you sleep";
-   char dst[100];
+   char str[30] = "happy C programming";
 
-   strcpy(dst, str);
-
-   printf("Copied string: %s\n", dst);
+   printf("문자열 \"%s\"의 길이 : %i", str, strlen(str));
   
     return 0;
 }
